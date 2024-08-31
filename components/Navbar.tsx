@@ -18,13 +18,13 @@ const Navbar = () => {
 					height={32}
 					className="max-sm:size-10"
 				/>
-				<p className="text-[26px] font-extrabold text-white max-sm:hidden">Yoom</p>
+				<p className="text-[26px] font-extrabold text-white max-sm:hidden">Zoom Clone</p>
 			</Link>
 			<div className="flex-between gap-5">
 				<SignedIn>
 					<UserButton />
 				</SignedIn>
-				
+
 				<MobileNav />
 			</div>
 		</nav>
